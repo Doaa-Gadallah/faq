@@ -6,7 +6,7 @@
 
 const FAQS = [
   {
-    q: { ar: "ما هي services التي تقدمينها؟", en: "What services do you offer?" },
+    q: { ar: " طلب تغيير كلمة مرور ماى مانس عند الدخول على بوابة اعضاء هيئة التدريس؟", en: "What services do you offer?" },
     a: { ar: "أقدم حلول برمجية وتقنية تشمل تطوير المواقع والتطبيقات، وإنظمة المعلومات، والاستشارات التقنية. يمكنكمراسلتي عبر البريد الإلكتروني لمناقشة تفاصيل مشروعك.", en: "I provide software and IT solutions including web andapp development, information systems, and technical consulting. Email me to discuss your project details." },
     tags: ["services", "خدمات"]
   },
