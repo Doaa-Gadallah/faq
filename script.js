@@ -21,7 +21,7 @@ const FAQS = [
     tags: ["time", "duration", "مدة", "الوقت"]
   },
   {
-    q: { ar: "كيف أسترجع ملفات النسخة الاحتياطية على صفخة المقررا؟", en: "What technologies do you work with?" },
+    q: { ar: "كيف أسترجع ملفات النسخة الاحتياطية على صفخة المقرر؟", en: "What technologies do you work with?" },
     a: { ar: "أعمل بأساسيات الويب HTML و CSS و JavaScript، إضافة إلى أطر العمل الحديثة حسب حاجة المشروع، مع اهتمام خاص بتجربة المستخدم ودعم اللغة العربية والاتجاه من اليمين لليسار.", en: "I work with web fundamentals — HTML, CSS and JavaScript — plus modern frameworks as the project requires, with special care for user experience and full Arabic RTL support." },
     tags: ["tech", "تقنيات", "stack"]
   },
