@@ -41,6 +41,22 @@ const FAQS = [
     tags: ["support", "دعم", "صيانة"]
   }
 ];
+  {
+    q: { ar: "ماذا أفعل عند نسيان كلمة مرور البريد الجامعى؟", en: "How can I contact you?" },
+    a: { ar: "أسهل طريقة هي البريد الإلكتروني: doaagadallah.it2027@gmail.com — أرد عادةً خلال ٢٤ ساعة. يمكنك أيضاً استخدام زر «راسلني» أو «نسخ البريد» في الأسفل.", en: "The easiest way is email: doaagadallah.it2027@gmail.com — I usually reply within 24 hours. You can also use the 'Email me' or 'Copy email' buttons below." },
+    tags: ["contact", "تواصل", "email"]
+  },
+  {
+    q: { ar: "كيف أعمل استبيان بجوجل فورم؟", en: "How can I contact you?" },
+    a: { ar: "أسهل طريقة هي البريد الإلكتروني: doaagadallah.it2027@gmail.com — أرد عادةً خلال ٢٤ ساعة. يمكنك أيضاً استخدام زر «راسلني» أو «نسخ البريد» في الأسفل.", en: "The easiest way is email: doaagadallah.it2027@gmail.com — I usually reply within 24 hours. You can also use the 'Email me' or 'Copy email' buttons below." },
+    tags: ["contact", "تواصل", "email"]
+  },
+  {
+    q: { ar: "؟", en: "How can I contact you?" },
+    a: { ar: "أسهل طريقة هي البريد الإلكتروني: doaagadallah.it2027@gmail.com — أرد عادةً خلال ٢٤ ساعة. يمكنك أيضاً استخدام زر «راسلني» أو «نسخ البريد» في الأسفل.", en: "The easiest way is email: doaagadallah.it2027@gmail.com — I usually reply within 24 hours. You can also use the 'Email me' or 'Copy email' buttons below." },
+    tags: ["contact", "تواصل", "email"]
+  },
+
 
 /* ---------- i18n dictionary ---------- */
 
