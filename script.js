@@ -6,37 +6,37 @@
 
 const FAQS = [
   {
-    q: { ar: " طلب تغيير كلمة مرور ماى مانس عند الدخول على بوابة اعضاء هيئة التدريس؟", en: "What services do you offer?" },
+    q: { ar: " ماذا أفعل اذا طلب منى أغير كلمة مرور ماى مانس عند الدخول على بوابة اعضاء هيئة التدريس؟", en: "What services do you offer?" },
     a: { ar: "أقدم حلول برمجية وتقنية تشمل تطوير المواقع والتطبيقات، وإنظمة المعلومات، والاستشارات التقنية. يمكنكمراسلتي عبر البريد الإلكتروني لمناقشة تفاصيل مشروعك.", en: "I provide software and IT solutions including web andapp development, information systems, and technical consulting. Email me to discuss your project details." },
     tags: ["services", "خدمات"]
   },
   {
-    q: { ar: "كيف يمكنني التواصل معك؟", en: "How can I contact you?" },
+    q: { ar: "ماذا أفعل عند نسيان كلمة مورو ماى مانس؟", en: "How can I contact you?" },
     a: { ar: "أسهل طريقة هي البريد الإلكتروني: doaagadallah.it2027@gmail.com — أرد عادةً خلال ٢٤ ساعة. يمكنك أيضاً استخدام زر «راسلني» أو «نسخ البريد» في الأسفل.", en: "The easiest way is email: doaagadallah.it2027@gmail.com — I usually reply within 24 hours. You can also use the 'Email me' or 'Copy email' buttons below." },
     tags: ["contact", "تواصل", "email"]
   },
   {
-    q: { ar: "كم تستغرق مدة تنفيذ المشروع؟", en: "How long does a project take?" },
+    q: { ar: "كيف أعمل نسخة احتياطية باك أب؟", en: "How long does a project take?" },
     a: { ar: "يعتمد ذلك على حجم المشروع وتعقيده: الموقع التعريفي البسيط يستغرق عادةً من أسبوع إلى أسبوعين، بينما التطبيقات والأنظمة الأكبر من ثلاثة إلى ستة أسابيع، مع تحديد جدول زمني واضح قبل البدء.", en: "It depends on the sizeand complexity: a simple landing page usually takes one to two weeks, while larger apps and systems take three tosix weeks — with a clear timeline agreed before we start." },
     tags: ["time", "duration", "مدة", "الوقت"]
   },
   {
-    q: { ar: "ما هي التقنيات التي تستخدمينها؟", en: "What technologies do you work with?" },
+    q: { ar: "كيف أسترجع ملفات النسخة الاحتياطية على صفخة المقررا؟", en: "What technologies do you work with?" },
     a: { ar: "أعمل بأساسيات الويب HTML و CSS و JavaScript، إضافة إلى أطر العمل الحديثة حسب حاجة المشروع، مع اهتمام خاص بتجربة المستخدم ودعم اللغة العربية والاتجاه من اليمين لليسار.", en: "I work with web fundamentals — HTML, CSS and JavaScript — plus modern frameworks as the project requires, with special care for user experience and full Arabic RTL support." },
     tags: ["tech", "تقنيات", "stack"]
   },
   {
-    q: { ar: "هل يمكن تعديل أو صيانة موقع قائم؟", en: "Can you modify or maintain an existing website?" },
+    q: { ar: "كيف أرفع رابط المحاضرة على صفحة المقرر؟", en: "Can you modify or maintain an existing website?" },
     a: { ar: "نعم بالتأكيد. أبدأ بمراجعة سريعة للكود الحالي لتقييم الوضع، ثم أقترح خطة للتحسينات أو الإصلاحات أو إضافة ميزات جديدة، سواء كان التعديل بسيطاً أو إعادة بناء كاملة.", en: "Absolutely. I start with a quick review of the existing code to assess its state, then propose a plan for improvements, fixes, or new features — whether it's a small tweak or a full rebuild." },
     tags: ["maintenance", "صيانة", "تعديل"]
   },
   {
-    q: { ar: "كيف تتم عملية الدفع؟", en: "How does payment work?" },
+    q: { ar: "كيف أعمل اختبار على المنصة التعليمية؟", en: "How does payment work?" },
     a: { ar: "عادةً تكون الدفعة الأولى عند الاتفاق (نسبة ٣٠ إلى ٥٠٪)، والباقي عند التسليم النهائي. للمشاريع الطويلة يمكن تقسيم المبالغ على مراحل التسليم، وسنسأل دائماً على الفواتير الرسمية.", en: "Typically an upfront payment of 30–50% when we agree, and the rest upon final delivery. For longer projects, payments can be split across deliverymilestones — official invoices are always provided." },
     tags: ["payment", "دفع", "الأسعار", "price"]
   },
   {
-    q: { ar: "هل تقدمين دعماً بعد التسليم؟", en: "Do you offer support after delivery?" },
+    q: { ar: "كيف أرفع ملف للمحاضرة على المنصة التعليمية؟", en: "Do you offer support after delivery?" },
     a: { ar: "نعم، كل مشروع يتضمن فترة دعم مجاني لإصلاح أي ملاحظات بعد الإطلاق، ويمكن الاتفاق على عقد صيانة دوري يشمل التحديثات والنسخ الاحتياطي والمتابعة التقنية.", en: "Yes — every project includes a free support window for fixes after launch, and we can arrange an ongoing maintenance contract covering updates, backups, and technical monitoring." },
     tags: ["support", "دعم", "صيانة"]
   }
