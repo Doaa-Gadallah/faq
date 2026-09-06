@@ -39,8 +39,7 @@ const FAQS = [
     q: { ar: "كيف أرفع ملف للمحاضرة على المنصة التعليمية؟", en: "Do you offer support after delivery?" },
     a: { ar: "نعم، كل مشروع يتضمن فترة دعم مجاني لإصلاح أي ملاحظات بعد الإطلاق، ويمكن الاتفاق على عقد صيانة دوري يشمل التحديثات والنسخ الاحتياطي والمتابعة التقنية.", en: "Yes — every project includes a free support window for fixes after launch, and we can arrange an ongoing maintenance contract covering updates, backups, and technical monitoring." },
     tags: ["support", "دعم", "صيانة"]
-  }
-];
+  },
   {
     q: { ar: "ماذا أفعل عند نسيان كلمة مرور البريد الجامعى؟", en: "How can I contact you?" },
     a: { ar: "أسهل طريقة هي البريد الإلكتروني: doaagadallah.it2027@gmail.com — أرد عادةً خلال ٢٤ ساعة. يمكنك أيضاً استخدام زر «راسلني» أو «نسخ البريد» في الأسفل.", en: "The easiest way is email: doaagadallah.it2027@gmail.com — I usually reply within 24 hours. You can also use the 'Email me' or 'Copy email' buttons below." },
@@ -55,7 +54,9 @@ const FAQS = [
     q: { ar: "؟", en: "How can I contact you?" },
     a: { ar: "أسهل طريقة هي البريد الإلكتروني: doaagadallah.it2027@gmail.com — أرد عادةً خلال ٢٤ ساعة. يمكنك أيضاً استخدام زر «راسلني» أو «نسخ البريد» في الأسفل.", en: "The easiest way is email: doaagadallah.it2027@gmail.com — I usually reply within 24 hours. You can also use the 'Email me' or 'Copy email' buttons below." },
     tags: ["contact", "تواصل", "email"]
-  },
+  }
+];
+  
 
 
 /* ---------- i18n dictionary ---------- */
