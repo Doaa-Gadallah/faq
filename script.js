@@ -15,6 +15,11 @@ const FAQS = [
     a: { ar: "أسهل طريقة هي البريد الإلكتروني: doaagadallah.it2027@gmail.com — أرد عادةً خلال ٢٤ ساعة. يمكنك أيضاً استخدام زر «راسلني» أو «نسخ البريد» في الأسفل.", en: "The easiest way is email: doaagadallah.it2027@gmail.com — I usually reply within 24 hours. You can also use the 'Email me' or 'Copy email' buttons below." },
     tags: ["contact", "تواصل", "email"]
   },
+    {
+    q: { ar: " ماذا أفعل عند عدم ظهور مقرراتى على صفحتى على المنصة التعليمية؟", en: "What services do you offer?" },
+    a: { ar: "أقدم حلول برمجية وتقنية تشمل تطوير المواقع والتطبيقات، وإنظمة المعلومات، والاستشارات التقنية. يمكنكمراسلتي عبر البريد الإلكتروني لمناقشة تفاصيل مشروعك.", en: "I provide software and IT solutions including web andapp development, information systems, and technical consulting. Email me to discuss your project details." },
+    tags: ["services", "خدمات"]
+  },
   {
     q: { ar: "كيف أعمل نسخة احتياطية باك أب؟", en: "How long does a project take?" },
     a: { ar: "يعتمد ذلك على حجم المشروع وتعقيده: الموقع التعريفي البسيط يستغرق عادةً من أسبوع إلى أسبوعين، بينما التطبيقات والأنظمة الأكبر من ثلاثة إلى ستة أسابيع، مع تحديد جدول زمني واضح قبل البدء.", en: "It depends on the sizeand complexity: a simple landing page usually takes one to two weeks, while larger apps and systems take three tosix weeks — with a clear timeline agreed before we start." },
@@ -51,7 +56,7 @@ const FAQS = [
     tags: ["contact", "تواصل", "email"]
   },
   {
-    q: { ar: "؟", en: "How can I contact you?" },
+    q: { ar: "كيف أعمل تكليف للطلاب على المنصة؟", en: "How can I contact you?" },
     a: { ar: "أسهل طريقة هي البريد الإلكتروني: doaagadallah.it2027@gmail.com — أرد عادةً خلال ٢٤ ساعة. يمكنك أيضاً استخدام زر «راسلني» أو «نسخ البريد» في الأسفل.", en: "The easiest way is email: doaagadallah.it2027@gmail.com — I usually reply within 24 hours. You can also use the 'Email me' or 'Copy email' buttons below." },
     tags: ["contact", "تواصل", "email"]
   }
