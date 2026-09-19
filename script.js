@@ -16,6 +16,16 @@ const FAQS = [
     tags: ["تغيير", "كلمة مرور", "ماي مانس", "MyMans", "password", "change"]
   },
   {
+     q: { ar: "ماذا أفعل عند عدم ظهور مقرراتى على صفحتى على المنصة التعليمية؟", en: "What should I do if my courses don't appear on my page on the educational platform?" },
+    a: { ar: "أولاً: نعمل تحديث مقررات المنصة التعليمية.\n\nوإذا لم تظهر المقررات يتم الرجوع لقسم الجداول للتأكد من إضافة المقررات على الجدول ثم يتم عمل تحديث بعدها.", en: "First: refresh/update the courses on the educational platform.\n\nIf the courses still don't appear, go to the schedules section to make sure the courses have been added to the schedule, then refresh again." },
+    tags: ["مقررات", "ظهور", "تحديث", "courses", "update"]
+    },
+  {
+    q: { ar: "ماذا أفعل عند نسيان كلمة مرور البريد الجامعى؟", en: "What should I do if I forget my university email password?" },
+    a: { ar: "ندخل على ماى مانس ثم نضغط على \"الخدمات\" ثم \"البريد الإلكترونى الجامعى\" ثم \"استعادة كلمة المرور\".\n\nثم ندخل كلمة المرور الجديدة ثم نعيد كتابتها مرة اخرى ثم نضغط \"حفظ\".", en: "Go to MyMans, then click \"Services\" then \"University Email\" then \"Recover Password\".\n\nEnter the new password, then re-type it again, then click \"Save\"." },
+    tags: ["نسيان", "كلمة مرور", "بريد جامعي", "email", "password", "forgot"]
+  },
+  {
     q: { ar: "كيف أرفع رابط المحاضرة على صفحة المقرر؟", en: "How do I upload a lecture link to the course page?" },
     a: { ar: "ندخل على صفحة المقرر ثم نضغط على \"Edit mode\" ثم نضغط على \"ADD AN ACTIVITY OR RESOURCE\" فتظهر لنا نافذة نضغط فيها على \"URL\" ثم ندخل اسم المحاضرة فى الحقل \"Name\" ثم نضع نسخة من رابط الفيديو الخاص بالمحاضرة والمرفوع على الدرايف مسبقاً بعمل لصق لرابط الفيديو فى الحقل \"External URL\" ثم نضغط على \"SAVE AND RETURN TO COURSE\".", en: "Go to the course page then click \"Edit mode\" then click \"ADD AN ACTIVITY OR RESOURCE\". A window will appear — click on \"URL\". Enter the lecture name in the \"Name\" field, then paste the video link (already uploaded to Google Drive) into the \"External URL\" field, then click \"SAVE AND RETURN TO COURSE\"." },
     tags: ["رفع", "رابط", "محاضرة", "video", "upload", "lecture", "URL"]
@@ -39,17 +49,7 @@ const FAQS = [
     q: { ar: "كيف أرفع ملف للمحاضرة على المنصة التعليمية؟", en: "How do I upload a lecture file to the educational platform?" },
     a: { ar: "ندخل على صفحة المقرر ثم نضغط على \"Edit mode\" ثم نضغط على \"ADD AN ACTIVITY OR RESOURCE\" فتظهر لنا نافذة نضغط فيها على \"File\".\n\nثم ندخل فيها اسم ملف المحاضرة فى الحقل \"Name\" ثم من \"Select Files\" نضغط على \"Files\" وذلك لبدء رفع ملف المحاضرة.\n\nثم يتم تحميل الملف من المكان المخزن به على جهازك وذلك بالضغط على \"Upload file\" ثم الضغط على \"Choose File\" ونختار الملف ثم نضغط على \"UPLOAD THIS FILE\" فيبدأ فى تحميل الملف على المنصة.\n\nثم يتم بعدها الضغط على \"SAVE AND RETURN TO COURSE\".", en: "Go to the course page then click \"Edit mode\" then click \"ADD AN ACTIVITY OR RESOURCE\". A window will appear — click on \"File\".\n\nEnter the lecture file name in the \"Name\" field, then under \"Select Files\" click \"Files\" to start uploading the lecture file.\n\nUpload the file from your computer by clicking \"Upload file\", then click \"Choose File\", select the file, then click \"UPLOAD THIS FILE\" to start uploading it to the platform.\n\nThen click \"SAVE AND RETURN TO COURSE\"." },
     tags: ["رفع", "ملف", "محاضرة", "upload", "file", "lecture"]
-  },
-  {
-    q: { ar: "ماذا أفعل عند نسيان كلمة مرور البريد الجامعى؟", en: "What should I do if I forget my university email password?" },
-    a: { ar: "ندخل على ماى مانس ثم نضغط على \"الخدمات\" ثم \"البريد الإلكترونى الجامعى\" ثم \"استعادة كلمة المرور\".\n\nثم ندخل كلمة المرور الجديدة ثم نعيد كتابتها مرة اخرى ثم نضغط \"حفظ\".", en: "Go to MyMans, then click \"Services\" then \"University Email\" then \"Recover Password\".\n\nEnter the new password, then re-type it again, then click \"Save\"." },
-    tags: ["نسيان", "كلمة مرور", "بريد جامعي", "email", "password", "forgot"]
     },
-  {
-    q: { ar: "ماذا أفعل عند عدم ظهور مقرراتى على صفحتى على المنصة التعليمية؟", en: "What should I do if my courses don't appear on my page on the educational platform?" },
-    a: { ar: "أولاً: نعمل تحديث مقررات المنصة التعليمية.\n\nوإذا لم تظهر المقررات يتم الرجوع لقسم الجداول للتأكد من إضافة المقررات على الجدول ثم يتم عمل تحديث بعدها.", en: "First: refresh/update the courses on the educational platform.\n\nIf the courses still don't appear, go to the schedules section to make sure the courses have been added to the schedule, then refresh again." },
-    tags: ["مقررات", "ظهور", "تحديث", "courses", "update"]
-  },
   {
     q: { ar: "كيف أرفع مجموعة ملفات مع بعض داخل فولدر على المنصة التعليمية؟", en: "How do I upload multiple files together in a folder on the educational platform?" },
     a: { ar: "ندخل على صفحة المقرر ثم نضغط على \"Edit mode\" ثم نضغط \"ADD AN ACTIVITY OR RESOURCE\" ثم نضغط على \"Folder\" وذلك لرفع أكثر من ملف خاص بالمقرر مع بعضها.\n\nثم ندخل اسم الفولدر فى الحقل \"Name\" ثم نضغط على \"Files\" ونبدأ نحمل الملفات المطلوب رفعها معاً.\n\nفتظهر لنا نافذة من خلالها يتم تحميل الملف من المكان المخزن به على جهازك وذلك بالضغط على \"Upload file\" ثم الضغط على \"Choose File\" ونختار الملفات من على جهاز الكمبيوتر ثم نضغط على \"UPLOAD THIS FILE\".\n\nفيبدأ فى تحميل الملفات على المنصة وننتظر حتى ينتهى التحميل ونلاحظ ظهور أسماء الملفات ثم نضغط على \"SAVE AND RETURN TO COURSE\".", en: "Go to the course page then click \"Edit mode\" then click \"ADD AN ACTIVITY OR RESOURCE\", then click \"Folder\" to upload multiple files together.\n\nEnter the folder name in the \"Name\" field, then click \"Files\" and start uploading the files you want to add together.\n\nA window will appear — upload the files from your computer by clicking \"Upload file\", then click \"Choose File\", select the files, then click \"UPLOAD THIS FILE\".\n\nThe files will start uploading to the platform. Wait until the upload is complete and you see the file names listed, then click \"SAVE AND RETURN TO COURSE\"." },
