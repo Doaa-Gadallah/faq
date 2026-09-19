@@ -6,59 +6,59 @@
 
 const FAQS = [
   {
-    q: { ar: " ماذا أفعل اذا طلب منى أغير كلمة مرور ماى مانس عند الدخول على بوابة اعضاء هيئة التدريس؟", en: "What services do you offer?" },
-    a: { ar: "أقدم حلول برمجية وتقنية تشمل تطوير المواقع والتطبيقات، وإنظمة المعلومات، والاستشارات التقنية. يمكنكمراسلتي عبر البريد الإلكتروني لمناقشة تفاصيل مشروعك.", en: "I provide software and IT solutions including web andapp development, information systems, and technical consulting. Email me to discuss your project details." },
-    tags: ["services", "خدمات"]
+    q: { ar: "ماذا أفعل عند نسيان كلمة مرور ماى مانس؟", en: "What should I do if I forget my MyMans password?" },
+    a: { ar: "نضغط على \"هل نسيت كلمة المرور\" ثم يتم إدخال الرقم القومي الخاص بعضو هيئة التدريس، ثم الضغط على \"إرسال\".\n\nيتم إرسال رسالة بكلمة المرور على البريد الإلكتروني ثم نضغط على \"موافق\" ثم نرجع عضو هيئة التدريس إلى صفحة الدخول على ماى مانس، ويسجل:\n• اسم المستخدم\n• كلمة المرور التي تم إرسالها على البريد\n• ثم يضغط على \"تسجيل دخول\".\n\nسيطلب من عضو هيئة التدريس تغيير كلمة المرور من خلال:\n1. اسم المستخدم\n2. إدخال كلمة المرور التي تم إرسالها على البريد الإلكتروني\n3. تسجيل أي كلمة مرور جديدة\n4. إعادة كتابة كلمة المرور الجديدة مرة أخرى\n5. الضغط على \"تغيير كلمة المرور\"", en: "What should I do if I forget my MyMans password?" },
+    tags: ["نسيان", "كلمة مرور", "ماي مانس", "MyMans", "password", "forgot"]
   },
   {
-    q: { ar: "ماذا أفعل عند نسيان كلمة مرور ماى مانس؟", en: "How can I contact you?" },
-    a: { ar: "أسهل طريقة هي البريد الإلكتروني: doaagadallah.it2027@gmail.com — أرد عادةً خلال ٢٤ ساعة. يمكنك أيضاً استخدام زر «راسلني» أو «نسخ البريد» في الأسفل.", en: "The easiest way is email: doaagadallah.it2027@gmail.com — I usually reply within 24 hours. You can also use the 'Email me' or 'Copy email' buttons below." },
-    tags: ["contact", "تواصل", "email"]
-  },
-    {
-    q: { ar: " ماذا أفعل عند عدم ظهور مقرراتى على صفحتى على المنصة التعليمية؟", en: "What services do you offer?" },
-    a: { ar: "أقدم حلول برمجية وتقنية تشمل تطوير المواقع والتطبيقات، وإنظمة المعلومات، والاستشارات التقنية. يمكنكمراسلتي عبر البريد الإلكتروني لمناقشة تفاصيل مشروعك.", en: "I provide software and IT solutions including web andapp development, information systems, and technical consulting. Email me to discuss your project details." },
-    tags: ["services", "خدمات"]
+    q: { ar: "ماذا أفعل اذا طلب منى أغير كلمة مرور ماى مانس عند الدخول على بوابة أعضاء هيئة التدريس؟", en: "What should I do if I'm prompted to change my MyMans password when logging into the faculty portal?" },
+    a: { ar: "نسجل اسم المستخدم لعضو هيئة التدريس ثم نسجل كلمة المرور القديمة ثم نكتب كلمة مرور جديدة ثم نرجع نكتب كلمة المرور الجديدة مرة ثانية ثم نضغط على \"تغيير كلمة المرور\" فتظهر رسالة بأنه تم تعديل البيان بنجاح.\n\nثم يقوم عضو هيئة التدريس بإعادة الدخول على ماى مانس باسم المستخدم وكلمة المرور الجديدة التى تم إنشاؤها.", en: "What should I do if I'm prompted to change my MyMans password when logging into the faculty portal?" },
+    tags: ["تغيير", "كلمة مرور", "ماي مانس", "MyMans", "password", "change"]
   },
   {
-    q: { ar: "كيف أعمل نسخة احتياطية باك أب؟", en: "How long does a project take?" },
-    a: { ar: "يعتمد ذلك على حجم المشروع وتعقيده: الموقع التعريفي البسيط يستغرق عادةً من أسبوع إلى أسبوعين، بينما التطبيقات والأنظمة الأكبر من ثلاثة إلى ستة أسابيع، مع تحديد جدول زمني واضح قبل البدء.", en: "It depends on the sizeand complexity: a simple landing page usually takes one to two weeks, while larger apps and systems take three tosix weeks — with a clear timeline agreed before we start." },
-    tags: ["time", "duration", "مدة", "الوقت"]
+    q: { ar: "كيف أرفع رابط المحاضرة على صفحة المقرر؟", en: "How do I upload a lecture link to the course page?" },
+    a: { ar: "ندخل على صفحة المقرر ثم نضغط على \"Edit mode\" ثم نضغط على \"ADD AN ACTIVITY OR RESOURCE\" فتظهر لنا نافذة نضغط فيها على \"URL\" ثم ندخل اسم المحاضرة فى الحقل \"Name\" ثم نضع نسخة من رابط الفيديو الخاص بالمحاضرة والمرفوع على الدرايف مسبقاً بعمل لصق لرابط الفيديو فى الحقل \"External URL\" ثم نضغط على \"SAVE AND RETURN TO COURSE\".", en: "How do I upload a lecture link to the course page?" },
+    tags: ["رفع", "رابط", "محاضرة", "video", "upload", "lecture", "URL"]
   },
   {
-    q: { ar: "كيف أسترجع ملفات النسخة الاحتياطية على صفخة المقرر؟", en: "What technologies do you work with?" },
-    a: { ar: "أعمل بأساسيات الويب HTML و CSS و JavaScript، إضافة إلى أطر العمل الحديثة حسب حاجة المشروع، مع اهتمام خاص بتجربة المستخدم ودعم اللغة العربية والاتجاه من اليمين لليسار.", en: "I work with web fundamentals — HTML, CSS and JavaScript — plus modern frameworks as the project requires, with special care for user experience and full Arabic RTL support." },
-    tags: ["tech", "تقنيات", "stack"]
+    q: { ar: "كيف أعمل نسخة احتياطية \"باك أب\"؟", en: "How do I create a backup?" },
+    a: { ar: "ندخل على صفحة المقرر ثم نضغط على \"Edit mode\" ثم نضغط على السهم بجانب \"More\" ثم نضغط على \"Course reuse\" ثم نختار \"Backup\" فتظهر بعض الاختيارات ثم ننزل لأسفل الصفحة ونضغط على \"Next\" ثم نضغط على \"Next\" ثم نضغط على \"PERFORM BACKUP\" فيبدأ يحمل النسخة الاحتياطية من الكورس.\n\nثم نضغط على \"CONTINUE\" فيظهر اسم الملف الخاص بالنسخة الاحتياطية أسفل الصفحة ثم نضغط على كلمة \"Download\" بجانب اسم الملف لكى يتم تنزيله.\n\nثم نجد ملف النسخة الاحتياطية فى الديونلود على جهاز الكمبيوتر.\n\nثم نضغط على \"MANAGE BACKUP FILES\" ثم نضغط بالماوس يمين على اسم الملف لكي نمسحه حتى لا يمثل عبئاً على السيرفر ثم نضغط على \"DELETE\" تظهر رسالة لتأكيد المسح ثم نضغط على \"OK\" ونلاحظ أنه تم حذف الملف ثم نضغط على \"SAVE CHANGES\".", en: "How do I create a backup?" },
+    tags: ["نسخة احتياطية", "باك أب", "backup"]
   },
   {
-    q: { ar: "كيف أرفع رابط المحاضرة على صفحة المقرر؟", en: "Can you modify or maintain an existing website?" },
-    a: { ar: "نعم بالتأكيد. أبدأ بمراجعة سريعة للكود الحالي لتقييم الوضع، ثم أقترح خطة للتحسينات أو الإصلاحات أو إضافة ميزات جديدة، سواء كان التعديل بسيطاً أو إعادة بناء كاملة.", en: "Absolutely. I start with a quick review of the existing code to assess its state, then propose a plan for improvements, fixes, or new features — whether it's a small tweak or a full rebuild." },
-    tags: ["maintenance", "صيانة", "تعديل"]
+    q: { ar: "كيف أسترجع ملفات النسخ الاحتياطية على صفحة المقرر؟", en: "How do I restore backup files on the course page?" },
+    a: { ar: "ندخل على صفحة المقرر ثم نضغط على \"Edit mode\" ثم نضغط على السهم بجانب \"More\" ثم نضغط على \"Course reuse\" ثم نختار \"Restore\".\n\nونبدأ فى تحميل ملف النسخة الاحتياطية فى المكان المخصص لذلك على صفحة الكورس وذلك بالضغط على \"CHOOSE FILE\" ثم يتم تحميل الملف من المكان المخزن به على جهازك وذلك بالضغط على \"Upload file\" ثم الضغط على \"Choose File\" ثم نختار ملف النسخة الاحتياطية من المكان المخزن به على جهاز الكمبيوتر ثم نضغط \"Open\".\n\nثم نختار الملف ثم نضغط على \"UPLOAD THIS FILE\" فيبدأ فى تحميل الملف على المنصة.\n\nبعد الانتهاء من تحميل الملف نجد أن الملف ظهر فى المكان المخصص له على صفحة المقرر.\n\nثم يتم بعدها الضغط على \"Restore\" فنلاحظ ظهور صفحة بها تفاصيل الكورس الذى سوف يتم استرجاعه ثم ننزل لأسفل الصفحة ونضغط على \"CONTINUE\" ثم ننزل لأسفل الصفحة ونضغط على \"NEXT\" ثم نضغط على \"CONTINUE\" أسفل الاختيار \"Restore into this course\" وتحديد الاختيار \"Merge the backup course into this course\".\n\nثم نضغط على \"NEXT\" ثم نضغط على \"PERFORM RESTORE\" ثم نضغط على \"CONTINUE\" فيبدأ فى تحميل ملف النسخة الاحتياطية.\n\nثم ننتظر حتى ينتهى من التحميل فتظهر رسالة بأنه تم الانتهاء من استرجاع النسخة الاحتياطية ثم نضغط على \"CONTINUE\".", en: "How do I restore backup files on the course page?" },
+    tags: ["استرجاع", "نسخة احتياطية", "restore", "backup"]
   },
   {
-    q: { ar: "كيف أعمل اختبار على المنصة التعليمية؟", en: "How does payment work?" },
-    a: { ar: "عادةً تكون الدفعة الأولى عند الاتفاق (نسبة ٣٠ إلى ٥٠٪)، والباقي عند التسليم النهائي. للمشاريع الطويلة يمكن تقسيم المبالغ على مراحل التسليم، وسنسأل دائماً على الفواتير الرسمية.", en: "Typically an upfront payment of 30–50% when we agree, and the rest upon final delivery. For longer projects, payments can be split across deliverymilestones — official invoices are always provided." },
-    tags: ["payment", "دفع", "الأسعار", "price"]
+    q: { ar: "كيف أعمل إعلان على المنصة التعليمية؟", en: "How do I create an announcement on the educational platform?" },
+    a: { ar: "ندخل على صفحة المقرر ثم نضغط على \"Edit mode\" ثم نضغط \"ADD AN ACTIVITY OR RESOURCE\" أسفل كلمة \"General\" ثم نضغط على \"Text and media area\".\n\nفتظهر لنا نافذة ندخل فيها تنويه لهذا الإعلان وهو نص يكتب فى الـ \"Text\" للطلاب.\n\nوكذلك يمكن إضافة صورة أو مقطع صوتى أو فيديو بالضغط على رمز الصورة أو رمز المقطع الصوتى أو رمز الفيديو من الرموز الموجودة.\n\nمثلاً عند إضافة صورة فنضغط على الرمز فتظهر نافذة نضغط فيها على \"BROWSE REPOSITORIES\" ثم نبدأ نحمل الصورة من المكان المخزنة به على الكمبيوتر بالضغط على \"Upload file\" ثم \"Choose File\" ونختار الصورة ثم نضغط على \"Open\".\n\nفنلاحظ ظهور اسم الصورة بجانب كلمة \"Choose File\" ثم نضغط على \"UPLOAD THIS FILE\".\n\nبعد انتهاء تحميل الصورة يتم وضع وصف للصورة وكذلك نظبط أبعاد الصورة من \"Size\" ثم نضغط على \"SAVE IMAGE\".", en: "How do I create an announcement on the educational platform?" },
+    tags: ["إعلان", "announcement", "نص", "صورة", "فيديو"]
   },
   {
-    q: { ar: "كيف أرفع ملف للمحاضرة على المنصة التعليمية؟", en: "Do you offer support after delivery?" },
-    a: { ar: "نعم، كل مشروع يتضمن فترة دعم مجاني لإصلاح أي ملاحظات بعد الإطلاق، ويمكن الاتفاق على عقد صيانة دوري يشمل التحديثات والنسخ الاحتياطي والمتابعة التقنية.", en: "Yes — every project includes a free support window for fixes after launch, and we can arrange an ongoing maintenance contract covering updates, backups, and technical monitoring." },
-    tags: ["support", "دعم", "صيانة"]
+    q: { ar: "كيف أرفع ملف للمحاضرة على المنصة التعليمية؟", en: "How do I upload a lecture file to the educational platform?" },
+    a: { ar: "ندخل على صفحة المقرر ثم نضغط على \"Edit mode\" ثم نضغط على \"ADD AN ACTIVITY OR RESOURCE\" فتظهر لنا نافذة نضغط فيها على \"File\".\n\nثم ندخل فيها اسم ملف المحاضرة فى الحقل \"Name\" ثم من \"Select Files\" نضغط على \"Files\" وذلك لبدء رفع ملف المحاضرة.\n\nثم يتم تحميل الملف من المكان المخزن به على جهازك وذلك بالضغط على \"Upload file\" ثم الضغط على \"Choose File\" ونختار الملف ثم نضغط على \"UPLOAD THIS FILE\" فيبدأ فى تحميل الملف على المنصة.\n\nثم يتم بعدها الضغط على \"SAVE AND RETURN TO COURSE\".", en: "How do I upload a lecture file to the educational platform?" },
+    tags: ["رفع", "ملف", "محاضرة", "upload", "file", "lecture"]
   },
   {
-    q: { ar: "ماذا أفعل عند نسيان كلمة مرور البريد الجامعى؟", en: "How can I contact you?" },
-    a: { ar: "أسهل طريقة هي البريد الإلكتروني: doaagadallah.it2027@gmail.com — أرد عادةً خلال ٢٤ ساعة. يمكنك أيضاً استخدام زر «راسلني» أو «نسخ البريد» في الأسفل.", en: "The easiest way is email: doaagadallah.it2027@gmail.com — I usually reply within 24 hours. You can also use the 'Email me' or 'Copy email' buttons below." },
-    tags: ["contact", "تواصل", "email"]
+    q: { ar: "ماذا أفعل عند نسيان كلمة مرور البريد الجامعى؟", en: "What should I do if I forget my university email password?" },
+    a: { ar: "ندخل على ماى مانس ثم نضغط على \"الخدمات\" ثم \"البريد الإلكترونى الجامعى\" ثم \"استعادة كلمة المرور\".\n\nثم ندخل كلمة المرور الجديدة ثم نعيد كتابتها مرة اخرى ثم نضغط \"حفظ\".", en: "What should I do if I forget my university email password?" },
+    tags: ["نسيان", "كلمة مرور", "بريد جامعي", "email", "password", "forgot"]
   },
   {
-    q: { ar: "كيف أعمل استبيان بجوجل فورم؟", en: "How can I contact you?" },
-    a: { ar: "أسهل طريقة هي البريد الإلكتروني: doaagadallah.it2027@gmail.com — أرد عادةً خلال ٢٤ ساعة. يمكنك أيضاً استخدام زر «راسلني» أو «نسخ البريد» في الأسفل.", en: "The easiest way is email: doaagadallah.it2027@gmail.com — I usually reply within 24 hours. You can also use the 'Email me' or 'Copy email' buttons below." },
-    tags: ["contact", "تواصل", "email"]
+    q: { ar: "كيف أعمل استبيان بجوجل فورم؟", en: "How do I create a Google Forms survey?" },
+    a: { ar: "يمكنك الإطلاع على خطوات إنشاء استبيان بجوجل فورم من خلال قسم تكنولوجيا المعلومات بالكلية. يرجى التواصل معنا للحصول على الدليل التفصيلي.", en: "You can get guidance on creating a Google Forms survey from the IT department. Please contact us for detailed instructions." },
+    tags: ["استبيان", "جوجل فورم", "survey", "Google Forms"]
   },
   {
-    q: { ar: "كيف أعمل تكليف للطلاب على المنصة؟", en: "How can I contact you?" },
-    a: { ar: "أسهل طريقة هي البريد الإلكتروني: doaagadallah.it2027@gmail.com — أرد عادةً خلال ٢٤ ساعة. يمكنك أيضاً استخدام زر «راسلني» أو «نسخ البريد» في الأسفل.", en: "The easiest way is email: doaagadallah.it2027@gmail.com — I usually reply within 24 hours. You can also use the 'Email me' or 'Copy email' buttons below." },
-    tags: ["contact", "تواصل", "email"]
+    q: { ar: "ماذا أفعل عند عدم ظهور مقرراتى على صفحتى على المنصة التعليمية؟", en: "What should I do if my courses don't appear on my page on the educational platform?" },
+    a: { ar: "أولاً: نعمل تحديث مقررات المنصة التعليمية.\n\nوإذا لم تظهر المقررات يتم الرجوع لقسم الجداول للتأكد من إضافة المقررات على الجدول ثم يتم عمل تحديث بعدها.", en: "What should I do if my courses don't appear on my page on the educational platform?" },
+    tags: ["مقررات", "ظهور", "تحديث", "courses", "update"]
+  },
+  {
+    q: { ar: "كيف أرفع مجموعة ملفات مع بعض داخل فولدر على المنصة التعليمية؟", en: "How do I upload multiple files together in a folder on the educational platform?" },
+    a: { ar: "ندخل على صفحة المقرر ثم نضغط على \"Edit mode\" ثم نضغط \"ADD AN ACTIVITY OR RESOURCE\" ثم نضغط على \"Folder\" وذلك لرفع أكثر من ملف خاص بالمقرر مع بعضها.\n\nثم ندخل اسم الفولدر فى الحقل \"Name\" ثم نضغط على \"Files\" ونبدأ نحمل الملفات المطلوب رفعها معاً.\n\nفتظهر لنا نافذة من خلالها يتم تحميل الملف من المكان المخزن به على جهازك وذلك بالضغط على \"Upload file\" ثم الضغط على \"Choose File\" ونختار الملفات من على جهاز الكمبيوتر ثم نضغط على \"UPLOAD THIS FILE\".\n\nفيبدأ فى تحميل الملفات على المنصة وننتظر حتى ينتهى التحميل ونلاحظ ظهور أسماء الملفات ثم نضغط على \"SAVE AND RETURN TO COURSE\".", en: "How do I upload multiple files together in a folder on the educational platform?" },
+    tags: ["فولدر", "ملفات", "رفع", "folder", "files", "upload"]
   }
 ];
   
@@ -196,9 +196,14 @@ function renderList() {
 
     const inner = document.createElement("div");
     inner.className = "faq-answer-inner";
-    const p = document.createElement("p");
-    p.textContent = item.a[lang];
-    inner.append(p);
+    const lines = item.a[lang].split("\n");
+    lines.forEach((line, li) => {
+      if (line.trim() === "") return;
+      const p = document.createElement("p");
+      p.textContent = line;
+      if (li === lines.length - 1) p.style.marginTop = "0.6rem";
+      inner.append(p);
+    });
     answer.append(inner);
 
     btn.addEventListener("click", () => {
